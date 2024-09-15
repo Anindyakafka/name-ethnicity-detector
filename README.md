@@ -1,8 +1,5 @@
 # Name Ethnicity Classification
 
-This repository is part of the [name-to-ethnicity](https://www.name-to-ethnicity.com) research project. If you use this classifier for your scientific work, please cite our [paper](https://link.springer.com/article/10.1007/s00146-022-01619-4#citeas).
-
-
 ## What is name-ethnicity classification?
 Name-ethnicity classification is the process of using a person's name to predict their ethnicity. It involves analyzing the linguistic features of the name to determine the likely ethnicity. This can help researchers detect potential biases and discrimination in various contexts, such as education, employment, housing, and healthcare.
 
@@ -10,8 +7,8 @@ Name-ethnicity classification is the process of using a person's name to predict
 ## :arrow_down: Installation:
 ### Get repository:
 ```
-git clone https://github.com/name-ethnicity-classifier/name-ethnicity-classifier
-cd name-ethnicity-classifier/
+git clone https://github.com/name-ethnicity-classifier/name-ethnicity-detector
+cd name-ethnicity-detector/
 ```
 ### Dependencies:
 Install the followng packages via ``pip`` or ``conda``:
