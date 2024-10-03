@@ -7,7 +7,7 @@ Name-ethnicity classification is the process of using a person's name to predict
 ## :arrow_down: Installation:
 ### Get repository:
 ```
-git clone https://github.com/name-ethnicity-classifier/name-ethnicity-detector
+git clone [https://github.com/name-ethnicity-classifier/name-ethnicity-detector](https://github.com/Anindyakafka/name-ethnicity-detector.git)
 cd name-ethnicity-detector/
 ```
 ### Dependencies:
