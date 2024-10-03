@@ -7,7 +7,7 @@ Name-ethnicity classification is the process of using a person's name to predict
 ## :arrow_down: Installation:
 ### Get repository:
 ```
-git clone [https://github.com/name-ethnicity-classifier/name-ethnicity-detector](https://github.com/Anindyakafka/name-ethnicity-detector.git)
+git clone https://github.com/Anindyakafka/name-ethnicity-detector.git
 cd name-ethnicity-detector/
 ```
 ### Dependencies:
@@ -48,6 +48,8 @@ On our website, www.name-to-ethnicity.com, you can request custom models trained
 #### Example command:
 ```
 python predict_ethnicity.py -i ./examples/names.csv -o ./examples/predicted_ethnicities.csv -m 21_nationalities_and_else -d gpu -b 64
+python predict_ethnicity.py -i ./examples/names.csv -o ./examples/predicted_ethnicities.csv -m 21_nationalities_and_else -d gpu -b 64 --distribution
+
 ```
 #### Example files:
 The input .csv file has to have one column named "names" (upper-/ lower case doesn't matter):
