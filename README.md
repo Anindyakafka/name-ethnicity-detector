@@ -48,6 +48,10 @@ On our website, www.name-to-ethnicity.com, you can request custom models trained
 #### Example command:
 ```
 python predict_ethnicity.py -i ./examples/names.csv -o ./examples/predicted_ethnicities.csv -m 21_nationalities_and_else -d gpu -b 64
+
+```
+Exapmle using distribution command:
+```
 python predict_ethnicity.py -i ./examples/names.csv -o ./examples/predicted_ethnicities.csv -m 21_nationalities_and_else -d gpu -b 64 --distribution
 
 ```
